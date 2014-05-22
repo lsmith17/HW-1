@@ -1,0 +1,158 @@
+HW-1
+====
+
+First Assignment CS 172
+
+#include<iostream>
+#include<cstdlib>
+#include<string>
+#include<array>
+using namespace std;
+
+void ex02 ();
+void ex03 ();
+void ex04 ();
+void ex05 ();
+
+int main (){
+
+ex02();
+ex03();
+ex04();
+ex05();
+
+return 0;
+}
+
+void ex02 () {
+// a.)
+bool hasPassedTest = true;  
+//b.)
+x = rand () % 100;
+y = rand () % 100; 
+  if ( y <= x) 
+    cout << "x is greater than or equal to y";
+  else
+    cout << "y is bigger than x";
+//c.)
+double numberofshares = 0;
+cout << "Enter Value";
+cin >> numberofshares;
+if ( numberofshares < 100){
+  cout << numberofshares << " is less than 100!" << endl;
+  }
+else {
+cout << "Sorry the number is more than 100" << endl;
+// d.)
+double boxwidth = 0;
+double bookwidth = 0;
+cout << "What is the box width?" << endl;
+cin >> boxwidth;
+cout << "What is the book width?" << endl;
+cin >> bookwidth;
+  if (boxwidth % bookwidth == 0){
+    cout << boxwidth << is divisible by << bookwidth << endl;
+    }
+  else {
+    cout << boxwidth << is not divisible by << bookwidth << endl;
+}
+// e.)
+double ShelfLife;
+double temp;	
+double x;
+cout << "What is the shelf life of a box of chocolate?" << endl;
+cin >> ShelfLife;
+cout << "What is the temperature?"<< endl;
+cin >> temp;
+
+  if (90 < temp){
+    x = (ShelfLife / 4.0);
+}
+  else{
+    x = ShelfLife;
+}
+
+cout << "The current shelf life is: " << x << endl;
+}
+
+void ex03 () {
+// a.)
+int areaofsquare, diagnolofsquare, side, diagnolofsidepwr2;
+cout << "Give an area of a square " :
+cin >> areaofsquare;
+side = sqrt(areaofsquare);
+diagnolofsquarepwr2 = (side*side)*2
+diagnolofsquare = sqrt(diagnolofsquarepwr2);
+cout << diagnolofsquare;
+// b.) 
+char answer, y, n;
+cin >> answer; 
+  if (answer == y )
+    cout << "yes" << endl;
+  if  (answer == n)
+    cout << "no" << endl;
+// c.)
+char a;
+a == '\t';
+// d.)
+string mailingAddress;
+cin >> mailingAddress;
+getline (cin, mailingAddress);
+cout >> mailingAddress;
+// e.)
+string s = " ";
+}
+
+void ex04 () {
+// a.)
+int a;
+do {
+cout << "Give a number between 1 and 10";
+cin >> a;
+} while (!(a < 10 && a > 1));
+    cout << "Your number is: "
+// b.)
+sum = 0;
+i = 0;
+do{
+sum += i*i*i;
+i++;
+} while (i <= a);
+// c.)
+i = o;
+while (i < a) {
+  i++;
+  cout << "*";
+  }
+// d.) 
+for ( int i = 0; i < 200: i++)
+if (i % 2 == 0)
+    cout << i << " ";
+// e.)
+int Doubleint (int a)   //seperate functions that should be called in ex04
+int a = a*2;
+// f.)
+int add (int x, inty, int sum)    //seperate functions that should be called in ex04
+int y = rand () % 100;
+int x = rand () % 100;
+sum = x + y;
+return sum;
+// g.)
+int addpar (int &par)
+return par+1;
+}
+
+void ex05 () {
+// a.)
+int proj[5];
+  for (int i = 0; i < 6 ; i++)
+  {
+    cout << "Please enter a number" << i+1 << endl;
+    cin >> proj[i];
+// b.)
+for (i = 0; i < 5; i++)
+sum += proj[i]
+cout << "The sum of the array is: " << sum;
+// c.)
+cout << proj[5] << proj[4] << proj[3] << proj[2] << proj[1] << proj[0];
+// d.) 
