@@ -153,6 +153,10 @@ int proj[5];
 for (i = 0; i < 5; i++)
 sum += proj[i]
 cout << "The sum of the array is: " << sum;
-// c.)
+// c.)  This function will be called in ex05
+int array (proj[5]);
 cout << proj[5] << proj[4] << proj[3] << proj[2] << proj[1] << proj[0];
-// d.) 
+// d.)  This function will be called in ex05
+int array ();
+
+
